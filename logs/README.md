@@ -5,11 +5,11 @@
 The measurement data contents traces of the packets sent by the traffic generator via the switch and DUT, and then captured also at the
 traffic generator. 
 The traces are stored as Packet Captures (PCAPs) with nanosecond timestamp precision.  
-During the double-blind review only a subset of the traces are provided due to GitHub's storage constraints.
-After review the traces will be provided by the author's cloud storage.
+Due to GitHub's storage constraints the complete data set can be found at [IEEE Dataport](https://dx.doi.org/10.21227/xe3c-e968).
+The name of the dataset is `Comparison of UPF Acceleration Technologies upf_acceleration.tar.gz (21.40 GB)`.
 The provided traces were compressed using gzip, hence to uncompress use:
 ```
-$ tar -xcvf logs.tar.gz
+$ tar -xcvf upf_acceleration.tar.gz
 ```
 
 ### Structure

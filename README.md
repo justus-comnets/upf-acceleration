@@ -12,7 +12,7 @@ with some modifications. TODO: Replace with fork.
 * [duts](duts/) contains our example implementations of GTP processing with P4 and DPDK.
   * [p4](duts/p4) contains P4 code and already compiled Bitfile.
   * [dpdk](duts/dpdk) contains standalone MoonGen script.
-* [logs](logs/) contains measurement traces (during review only subset, because of limited storage).
+* [logs](logs/) contains measurement traces.
 
 ## How to
 ### Measurement
